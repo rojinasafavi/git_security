@@ -1,0 +1,29 @@
+# Sensitive configuration files
+.env
+.env.*
+# Local environment files
+*.local
+config/*.local
+# Secrets and keys
+secrets/
+*.key
+*.pem
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+# OS generated files
+.DS_Store
+Thumbs.db
+# Build artifacts
+node_modules/
+/dist/
+/build/
+# Logs
+*.log
+# Temporary files
+*.tmp
+*.bak
+# Other files you may want to ignore
+*.envrc
